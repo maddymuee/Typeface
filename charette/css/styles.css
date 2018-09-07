@@ -1,0 +1,435 @@
+body {
+	text-align:left;
+	background-color:#e20026;
+	overflow-x:hidden;
+}
+#content {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	height: 2000px;
+}
+#content:hover {
+	cursor: pointer;
+}
+
+#letterbox1 {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+#letterbox2 {
+	position: absolute;
+	left: 180px;
+	top: 20px;
+}
+#letterbox3 {
+	position: absolute;
+	left: 340px;
+	top: 20px;
+}
+#letterbox4 {
+	position: absolute;
+	left: 500px;
+	top: 20px;
+}
+#letterbox5 {
+	position: absolute;
+	left: 660px;
+	top: 20px;
+}
+#letterbox6 {
+	position: absolute;
+	left: 820px;
+	top: 20px;
+}
+#letterbox7 {
+	position: absolute;
+	left: 980px;
+	top: 20px;
+}
+#letterbox8 {
+	position: absolute;
+	left: 1140px;
+	top: 20px;
+}
+#letterbox9 {
+	position: absolute;
+	left: 20px;
+	top: 300px;
+}
+#letterbox10 {
+	position: absolute;
+	left: 180px;
+	top: 300px;
+}
+#letterbox11 {
+	position: absolute;
+	left: 340px;
+	top: 300px;
+}
+#letterbox12 {
+	position: absolute;
+	left: 500px;
+	top: 300px;
+}
+#letterbox13 {
+	position: absolute;
+	left: 660px;
+	top: 300px;
+}
+#letterbox14 {
+	position: absolute;
+	left: 820px;
+	top: 300px;
+}
+#letterbox15 {
+	position: absolute;
+	left: 980px;
+	top: 300px;
+}
+#letterbox16 {
+	position: absolute;
+	left: 1140px;
+	top: 300px;
+}
+#letterbox17 {
+	position: absolute;
+	left: 20px;
+	top: 580px;
+}
+#letterbox18 {
+	position: absolute;
+	left: 180px;
+	top: 580px;
+}
+#letterbox19 {
+	position: absolute;
+	left: 340px;
+	top: 580px;
+}
+#letterbox20 {
+	position: absolute;
+	left: 500px;
+	top: 580px;
+}
+#letterbox21 {
+	position: absolute;
+	left: 660px;
+	top: 580px;
+}
+#letterbox22 {
+	position: absolute;
+	left: 820px;
+	top: 580px;
+}
+#letterbox23 {
+	position: absolute;
+	left: 980px;
+	top: 580px;
+}
+#letterbox24 {
+	position: absolute;
+	left: 1140px;
+	top: 580px;
+}
+#letterbox25 {
+	position: absolute;
+	left: 20px;
+	top: 860px;
+}
+#letterbox26 {
+	position: absolute;
+	left: 180px;
+	top: 860px;
+}
+#letterbox27 {
+	position: absolute;
+	left: 340px;
+	top: 860px;
+}
+#letterbox28 {
+	position: absolute;
+	left: 500px;
+	top: 860px;
+}
+#letterbox29 {
+	position: absolute;
+	left: 660px;
+	top: 860px;
+}
+#letterbox30 {
+	position: absolute;
+	left: 820px;
+	top: 860px;
+}
+#letterbox31 {
+	position: absolute;
+	left: 980px;
+	top: 860px;
+}
+#letterbox32 {
+	position: absolute;
+	left: 1140px;
+	top: 860px;
+}
+#letterbox33 {
+	position: absolute;
+	left: 20px;
+	top: 1140px;
+}
+#letterbox34 {
+	position: absolute;
+	left: 180px;
+	top: 1140px;
+}
+#letterbox35 {
+	position: absolute;
+	left: 340px;
+	top: 1140px;
+}
+#letterbox36 {
+	position: absolute;
+	left: 500px;
+	top: 1140px;
+}
+#letterbox37 {
+	position: absolute;
+	left: 660px;
+	top: 1140px;
+}
+
+
+.line1 {
+	position: absolute;
+	border-left: 3px solid #ffffff;
+	height: 240px;
+	left: 0;
+	top: 0;
+	z-index:2;
+}
+
+.halfcircle1{
+	height: 110px;
+    width: 55px;
+    border-radius: 0 55px 55px 0;
+    background-color: #00bedd;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    mix-blend-mode:color-dodge;
+}
+
+.halfcircle2{
+	height: 110px;
+    width: 55px;
+    border-radius: 0 55px 55px 0;
+    background-color: #ffbc00;
+    position: absolute;
+    left: 0;
+    top: 105px;
+    mix-blend-mode:color-dodge;
+}
+
+.circle1{
+	height: 110px;
+    width: 110px;
+    border-radius: 55px;
+    background-color: #00bedd;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    mix-blend-mode:color-dodge;
+    background-color:transparent;
+}
+
+.thenperish{
+	background-image:url('https://i.kym-cdn.com/photos/images/original/001/342/448/526.jpg');
+	width:300px;
+	height:163px;
+	background-size:contain;
+	position:absolute;
+	left: 0;
+	top: 15px;
+	opacity:0;
+}
+
+#letterbox1 .halfcircle1:hover, #letterbox1 .halfcircle2:hover{
+	background-color:#ffffff;
+}
+
+#letterbox1 .halfcircle1, #letterbox1 .halfcircle2{
+	transition: all 300ms;
+}
+
+#letterbox2 .halfcircle1, #letterbox2 .halfcircle2{
+	transition: all 300ms;
+}
+
+.lb2selected {
+	background-color:#ffffff;
+}
+
+#letterbox7 .halfcircle1:hover, #letterbox7 .halfcircle2:hover {
+	border:3px solid #ffffff;
+	background-color:transparent;
+}
+
+.lb8selected1 {
+	background-color: #ffbc00;
+}
+.lb8selected2 {
+	background-color: #00bedd;
+}
+
+.lb10selected {
+	border-width:55px;
+}
+
+#letterbox10 .line1 {
+	transition: all 300ms;
+}
+
+.lb11selected {
+	mix-blend-mode: multiply;
+}
+
+.lb12selected {
+	transform:rotate(180deg);
+}
+
+#letterbox12 .halfcircle1, #letterbox12 .halfcircle2 {
+	transition: all 300ms;
+}
+
+.lb13selected {
+	transform:rotate(360deg);
+}
+
+#letterbox13 .line1 {
+	transition: all 300ms;
+}
+
+.lb14selected {
+	transform: scalex(-1);
+}
+
+#letterbox14 {
+	transition: all 300ms;
+}
+
+.lb15selected {
+	opacity: 0;
+}
+
+#letterbox15 {
+	transition: all 300ms;
+}
+
+.lb16selected {
+	opacity: 0;
+}
+
+#letterbox16 {
+	transition: all 300ms;
+}
+
+.lb18selected1 {
+	top:-1000px;
+}
+
+.lb18selected2 {
+	top:-1000px;
+	height:1240px;
+}
+
+#letterbox18 .line1, #letterbox18 .halfcircle1 {
+	transition: all 500ms;
+}
+
+.lb23selected {
+	left: 500px;
+	background-color: #00bedd;
+}
+
+#letterbox23 .circle1 {
+	transition: opacity 0s, left 500ms;
+}
+
+.lb24selected {
+	border:3px solid #ffffff;
+	background-color: transparent;
+}
+
+#letterbox26 .thenperish:hover{
+	opacity:1;
+}
+.thenperish {
+	transition: 2s;
+}
+
+.lb27selected {
+	transform: skewY(20deg);
+}
+
+.lb28selected1 {
+	transform: skewY(20deg);
+	top: 25px;
+}
+
+.lb28selected2 {
+	transform: skewY(-20deg);
+	top: 95px;
+}
+
+.lb29selected1 {
+	transform: skewY(20deg);
+	top: 200px;
+	width: 1000px;
+}
+
+.lb29selected2 {
+	transform: skewY(-20deg);
+	top: -80px;
+	width: 1000px;
+}
+
+#letterbox29 .halfcircle1, #letterbox29 .halfcircle2 {
+	transition: 500ms;
+}
+
+#letterbox32:hover {
+	transform: scale(2);
+}
+
+#letterbox32 {
+	transition: 500ms;
+}
+
+#letterbox33:hover {
+	transform: scale(.5);
+}
+
+#letterbox33 {
+	transition: 500ms;
+}
+
+.lb34selected1 {
+	background-color: #a80923;
+}
+
+.lb34selected2 {
+	border: 2px solid #a80923;
+}
+
+#letterbox36:hover {
+	transform: rotate(-45deg);
+}
+
+#letterbox36 {
+	transition: 500ms;
+}
+
+
+
+
