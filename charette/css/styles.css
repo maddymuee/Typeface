@@ -3,11 +3,14 @@ body {
 	background-color:#e20026;
 	overflow-x:hidden;
 }
+body.on {
+	background-color:#ffffff;
+}
 #content {
 	position: absolute;
 	left: 50px;
 	top: 50px;
-	height: 2000px;
+	height: 3000px;
 	transition: all 300ms;
 }
 #content:hover {
@@ -386,12 +389,108 @@ body {
 	position: absolute;
 	left: 500px;
 	top: 1980px;
-	width: 60px;
-	height: 200px;
+	transition: all 300ms;
+}
+
+#letterbox61 {
+	position: absolute;
+	left: 660px;
+	top: 1980px;
+	transition: all 300ms;
+}
+
+#letterbox62 {
+	position: absolute;
+	left: 820px;
+	top: 1980px;
 	transition: all 300ms;
 }
 
 
+#letterbox63 {
+	position: absolute;
+	left: 980px;
+	top: 1980px;
+	transition: all 300ms;
+}
+
+#letterbox64 {
+	position: absolute;
+	left: 1140px;
+	top: 1980px;
+	transition: all 300ms;
+}
+
+#letterbox65 {
+	position: absolute;
+	left: 20px;
+	top: 2260px;
+	transition: all 300ms;
+}
+
+#letterbox66 {
+	position: absolute;
+	left: 180px;
+	top: 2260px;
+	transition: all 300ms;
+}
+
+
+#letterbox67 {
+	position: absolute;
+	left: 340px;
+	top: 2260px;
+	transition: all 300ms;
+}
+
+#letterbox68 {
+	position: absolute;
+	left: 500px;
+	top: 2260px;
+	transition: all 300ms;
+}
+#letterbox69 {
+	position: absolute;
+	left: 660px;
+	top: 2260px;
+	transition: all 300ms;
+}
+#letterbox70 {
+	position: absolute;
+	left: 820px;
+	top: 2260px;
+	transition: all 300ms;
+}
+#letterbox71 {
+	position: absolute;
+	left: 980px;
+	top: 2260px;
+	transition: all 300ms;
+}
+#letterbox72 {
+	position: absolute;
+	left: 1140px;
+	top: 2260px;
+	transition: all 300ms;
+}
+#letterbox73 {
+	position: absolute;
+	left: 20px;
+	top: 2540px;
+	transition: all 300ms;
+}
+#letterbox74 {
+	position: absolute;
+	left: 180px;
+	top: 2540px;
+	transition: all 300ms;
+}
+#letterbox75 {
+	position: absolute;
+	left: 340px;
+	top: 2540px;
+	transition: all 300ms;
+}
 
 .line1 {
 	position: absolute;
@@ -645,6 +744,7 @@ body {
 	top:105px;
 	height: 20px;
 	border-width: 500px;
+	transition: all 300ms;
 }
 
 .lb55selected {
@@ -663,10 +763,12 @@ body {
 
 .lb58selected1 {
 	top:0px;
+	transition: all 300ms;
 }
 
 .lb58selected2 {
 	top:130px;
+	transition: all 300ms;
 }
 
 .lb59selected1 {
@@ -674,6 +776,7 @@ body {
 	transform-origin: top right;
 	border-radius: 55px 55px 55px 55px;
 	width: 110px;
+	transition: all 300ms;
 }
 
 
@@ -682,7 +785,56 @@ body {
 	transform-origin: bottom left;
 	border-radius: 55px 55px 55px 55px;
 	width: 110px;
+	transition: all 300ms;
 }
+
+.lb60selected {
+	background-color:#ffffff;
+}
+
+.lb62selected {
+	transform: scale(3);
+	border-radius: 55px 55px 55px 55px;
+	width: 110px;
+}
+
+.lb65selected {
+	border: 2px solid #00bedd;
+}
+
+.lb66selected1 {
+	transform: skewY(20deg);
+	top: 120px;
+	transition: all 300ms;
+}
+
+.lb66selected2 {
+	transform: skewY(-20deg);
+	top: -80px;
+	transition: all 300ms;
+}
+
+.lb69selected {
+	top: -280px;
+	transition: all 300ms;
+}
+
+.lb70selected {
+	left: -20px;
+	border: 10px solid #ffffff;
+	transition: all 300ms;
+}
+
+.lb72selected {
+	opacity: 0;
+	transition: all 300ms;
+}
+
+
+
+
+
+
 
 
 

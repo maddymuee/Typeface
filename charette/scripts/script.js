@@ -415,4 +415,102 @@ $("#letterbox59").on('click',function(){
 	$("#letterbox59 .halfcircle2").toggleClass("lb59selected2");
 });
 
+$("#letterbox60").on('click',function(){
+	$("body").toggleClass("lb60selected");
+});
+
+$("#letterbox61").on('click',function(){
+	$(".halfcircle1, .halfcircle2").animate({
+		'border-radius': '0',
+		height: '110px',
+		width: '110px',
+	}, 200);
+});
+
+
+$("#letterbox62").on('click',function(){
+	$(".halfcircle1").toggleClass("lb62selected");
+});
+
+$("#letterbox63").on('mouseover',function(){
+	$(".halfcircle1, .halfcircle2").animate({
+		opacity:"0",
+	}, 200);
+});
+
+$("#letterbox63").on('mouseout',function(){
+	$(".halfcircle1, .halfcircle2").animate({
+		opacity:"1",
+	}, 200);
+});
+
+$("#letterbox64").on('click',function(){
+	$(".halfcircle1, .halfcircle2").animate({
+		opacity:"0",
+	}, 200);
+});
+
+$("#letterbox65").on('click',function(){
+	$(".line1").toggleClass("lb65selected");
+});
+
+$("#letterbox66").on('click',function(){
+	$(".halfcircle1").toggleClass("lb66selected1");
+	$(".halfcircle2").toggleClass("lb66selected2");
+});
+
+$("#letterbox67").on('click',function(){
+	$(".halfcircle1, .halfcircle2").toggleClass("lb24selected");
+});
+
+$('#letterbox68').click('click touchstart', function() {
+	$("#letterbox68, #letterbox66, #letterbox64, #letterbox62").animate({top: '1420px'}, 1000);
+	$("#letterbox67, #letterbox65, #letterbox63, #letterbox61").animate({left: '340px'}, 1000);
+});
+
+$("#letterbox69").on('click',function(){
+	$(".line1").toggleClass("lb69selected");
+});
+
+$("#letterbox70").on('click',function(){
+	$(".line1").toggleClass("lb70selected");
+});
+
+$("#letterbox71").on('click',function(){
+	$(".halfcircle1").animate({
+		'border-top-right-radius': '110px',
+		'border-bottom-right-radius': '110px',
+		'border-bottom-left-radius': '110px',
+		'border-top-left-radius': '110px',
+		height: '220px',
+		width: '220px',
+		left:'-55px',
+	}, 200);
+	$(".line1, .halfcircle2").toggleClass("lb57selected");
+});
+
+$("#letterbox72").on('click',function(){
+	$("#letterbox72, #letterbox71, #letterbox70, #letterbox69, #letterbox68, #letterbox67, #letterbox66, #letterbox65").toggleClass("lb72selected");
+});
+
+$('#letterbox73').on('click', function() {
+	$("#letterbox8").animate({top: '300px'}, 1000);
+	$("#letterbox16").animate({top: '580px'}, 1000);
+	$("#letterbox24").animate({top: '860px'}, 1000);
+	$("#letterbox32").animate({top: '1140px'}, 1000);
+	$("#letterbox40").animate({top: '1420px'}, 1000);
+	$("#letterbox48").animate({top: '1700px'}, 1000);
+	$("#letterbox56").animate({top: '1980px'}, 1000);
+	$("#letterbox64").animate({top: '2260px'}, 1000);
+	$("#letterbox72").animate({top: '2540px'}, 1000);
+});
+
+$("#letterbox74").click(function() {
+    window.location.reload();
+});
+
+$("#letterbox75").click(function() {
+    $("div").toggleClass("lb72selected");
+});
+
 });
