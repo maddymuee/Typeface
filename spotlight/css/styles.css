@@ -9,14 +9,17 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 2500px;
+	height: 3350px;
 	margin: auto;
-	transition: all 300ms;
 	background-color:#e2004a;
-	animation: filter-animation 30s infinite linear alternate;
+	animation: filter-animation 120s infinite linear alternate;
 }
 
- @keyframes filter-animation {
+#content:hover {
+	cursor: pointer;
+}
+
+@keyframes filter-animation {
   0% {
     filter: hue-rotate(0deg);
   }
@@ -30,8 +33,7 @@ body {
   }
 }
 
-
-#letters {
+#name {
 	position: absolute;
 	width: 1200px;
 	height: 300px;
@@ -39,39 +41,77 @@ body {
 	margin: 100px 0 0 -600px;
 }
 
-
-
-#content:hover {
-	cursor: pointer;
+#names {
+	position: absolute;
+	left: 0;
 }
+
+#namep {
+	position: absolute;
+	left: 260px;
+}
+
+#nameo {
+	position: absolute;
+	left: 450px;
+}
+
+#namet {
+	position: absolute;
+	left: 750px;
+}
+
+#namehyphen {
+	position: absolute;
+	left: 1100px;
+}
+
+#namel {
+	position: absolute;
+	top: 300px;
+}
+
+#namei {
+	position: absolute;
+	top: 300px;
+	left: 240px;
+}
+
+#nameg {
+	position: absolute;
+	top: 300px;
+	left: 360px;
+}
+
+#nameh {
+	position: absolute;
+	top: 300px;
+	left: 700px;
+}
+
+#namet2 {
+	position: absolute;
+	top: 300px;
+	left: 1000px;
+}
+
+
+
+
+#letters {
+	position: absolute;
+	width: 1200px;
+	height: 300px;
+	left: 50%;
+	margin: 900px 0 0 -600px;
+}
+
 
 #a {
 	position: absolute;
 	left: 0px;
 }
-/* 	transform: scale(3.5);
-	transition: all 600ms; */
-.aselected {
-	animation: a 3s ease-in-out forwards;
-	animation-iteration-count: 1;
-}
- @keyframes a {
-  0% {
-    transform: scale(1);
-  }
-  20% {
-    transform: scale(.5);
-  }
-  30% {
-    transform: scale(1);
-  }
-  40% {
-    transform: scale(.5);
-  }
-  100% {
-    transform: scale(3.5);
-  }
-}
+
 
 #b {
 	position: absolute;
@@ -741,7 +781,10 @@ body {
 	filter: hue-rotate(90deg);
 }
 
-
+.aselected {
+	transform: scale(3.5);
+	transition: all 600ms;
+}
 
 .bselected1 {
 	transform: skewY(20deg);
@@ -829,7 +872,11 @@ body {
 
 .nselected {
 	transform: scale(2);
-	transform-origin: bottom left;
+	transition: all 600ms;
+}
+
+.oselected {
+	transform: scale(1.5);
 	transition: all 600ms;
 }
 
@@ -956,6 +1003,10 @@ body {
 }
 */
 
+.animate {
+	top:-100px;
+	transition: all 300ms;
+}
 .lb3selected1 {
 	top:0px;
 	transition: all 300ms;
