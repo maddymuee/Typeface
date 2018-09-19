@@ -13,7 +13,23 @@ body {
 	margin: auto;
 	transition: all 300ms;
 	background-color:#e2004a;
+	animation: filter-animation 30s infinite linear alternate;
 }
+
+ @keyframes filter-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    filter: hue-rotate(180deg);
+  }
+  
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
 
 #letters {
 	position: absolute;
@@ -32,6 +48,29 @@ body {
 #a {
 	position: absolute;
 	left: 0px;
+}
+/* 	transform: scale(3.5);
+	transition: all 600ms; */
+.aselected {
+	animation: a 3s ease-in-out forwards;
+	animation-iteration-count: 1;
+}
+ @keyframes a {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(.5);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(.5);
+  }
+  100% {
+    transform: scale(3.5);
+  }
 }
 
 #b {
@@ -97,49 +136,48 @@ body {
 
 #m {
 	position: absolute;
-	left: 310px;
+	left: 200px;
 	top: 600px;
 }
 
 #n {
 	position: absolute;
-	left: 700px;
+	left: 570px;
 	top: 600px;
 }
 
 #o {
 	position: absolute;
-	left: 1000px;
+	left: 850px;
 	top: 600px;
 }
 
 #p {
 	position: absolute;
-	left: 0px;
-	top: 900px;
+	left: 1145px;
+	top: 600px;
 }
 
 #q {
 	position: absolute;
-	left: 110px;
 	top: 900px;
 }
 
 #r {
 	position: absolute;
-	left: 415px;
+	left: 335px;
 	top: 900px;
 }
 
 #s {
 	position: absolute;
-	left: 570px;
+	left: 515px;
 	top: 900px;
 }
 
 #t {
 	position: absolute;
-	left: 720px;
+	left: 705px;
 	top: 900px;
 }
 
@@ -191,13 +229,13 @@ body {
 
 #trois {
 	position: absolute;
-	left: 415px;
+	left: 430px;
 	top: 1500px;
 }
 
 #quatre {
 	position: absolute;
-	left: 470px;
+	left: 510px;
 	top: 1500px;
 }
 
@@ -445,7 +483,7 @@ body {
 .line7 {
 	position: absolute;
 	border-bottom: 2px solid #ffffff;
-	width: 230px;
+	width: 130px;
 	left: 0px;
 	top: 215px;
 	z-index:2;
@@ -498,13 +536,37 @@ body {
 	top: 0;
 	z-index:2;
 }
+.line14 {
+	position: absolute;
+	border-left: 2px solid #ffffff;
+	height: 130px;
+	left: 200;
+	top: 0;
+	z-index:2;
+}
+.line15 {
+	position: absolute;
+	border-bottom: 2px solid #ffffff;
+	width: 230px;
+	left: 0px;
+	top: 215px;
+	z-index:2;
+}
+.line16 {
+	position: absolute;
+	border-bottom: 2px solid #ffffff;
+	width: 130px;
+	left: 100px;
+	top: 15px;
+	z-index:2;
+}
 
 
 .halfcircle1{
 	height: 110px;
     width: 55px;
     border-radius: 0 55px 55px 0;
-    background-color: #0098b1;
+    background-color: #00bedd;
     position: absolute;
     left: 0;
     top: 15px;
@@ -679,10 +741,7 @@ body {
 	filter: hue-rotate(90deg);
 }
 
-.aselected {
-	transform: scale(3.5);
-	transition: all 600ms;
-}
+
 
 .bselected1 {
 	transform: skewY(20deg);
