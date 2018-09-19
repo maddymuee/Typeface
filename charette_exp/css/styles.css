@@ -1,0 +1,165 @@
+body {
+	text-align:left;
+	overflow-x:hidden;
+	margin: 0;
+}
+
+#content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	transition: all 300ms;
+	background-color:#e2004a;
+}
+
+#letters {
+	position: absolute;
+	width: 700px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -350px;
+}
+
+#content:hover {
+	cursor: pointer;
+}
+
+#letterbox1 {
+	position: absolute;
+	left: 20px;
+	transition: all 300ms;
+}
+
+#letterbox2 {
+	position: absolute;
+	left: 180px;
+	transition: all 300ms;
+}
+
+#letterbox3 {
+	position: absolute;
+	left: 340px;
+	transition: all 300ms;
+}
+
+#letterbox4 {
+	position: absolute;
+	left: 500px;
+	transition: all 300ms;
+}
+
+#letterbox5 {
+	position: absolute;
+	left: 660px;
+	transition: all 300ms;
+}
+
+
+.line1 {
+	position: absolute;
+	border-left: 2px solid #ffffff;
+	height: 240px;
+	left: 0;
+	top: 0;
+	z-index:3;
+}
+
+.halfcircle1{
+	height: 110px;
+    width: 55px;
+    border-radius: 0 55px 55px 0;
+    background-color: #0098b1;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    mix-blend-mode:color-dodge;
+}
+
+.halfcircle2{
+	height: 110px;
+    width: 55px;
+    border-radius: 0 55px 55px 0;
+    background-color: #ffbc00;
+    position: absolute;
+    left: 0;
+    top: 105px;
+    mix-blend-mode:color-dodge;
+}
+
+.circle1{
+	height: 110px;
+    width: 110px;
+    border-radius: 55px;
+    background-color: #00bedd;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    mix-blend-mode:color-dodge;
+    background-color:transparent;
+}
+
+.huerotate {
+	filter: hue-rotate(90deg);
+}
+
+.lb1selected1 {
+	transform: skewY(20deg);
+	top: 380px;
+	width: 2000px;
+	transition: all 500ms;
+}
+
+.lb1selected2 {
+	transform: skewY(-20deg);
+	top: -257px;
+	width: 2000px;
+	transition: all 500ms;
+}
+
+.lb2selected1 {
+	transform: scale(8);
+	transform-origin: top right;
+	border-radius: 55px 55px 55px 55px;
+	width: 110px;
+	transition: all 300ms;
+}
+
+
+.lb2selected2 {
+	transform: scale(6);
+	transform-origin: bottom left;
+	border-radius: 55px 55px 55px 55px;
+	width: 110px;
+	transition: all 300ms;
+}
+
+.lb3selected1 {
+	top:0px;
+	transition: all 300ms;
+}
+
+.lb3selected2 {
+	top:130px;
+	transition: all 300ms;
+}
+
+.lb4selected {
+	animation:spin 10s linear infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
+
+
+
+
+
+
