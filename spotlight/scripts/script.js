@@ -4,17 +4,13 @@ $(document).ready(function() {
         $("#a .triangle1").removeClass("aselected");
 		$("#c .halfcircle3").removeClass("cselected");
 		$("#e .halfcircle3").removeClass("eselected");
-		$("#nameg .circle1").removeClass("gselected");
 		$("#j .halfcircle5").removeClass("jselected");
 		$("#m .triangle4").removeClass("mselected1");
 		$("#m .triangle5").removeClass("mselected2");
 		$("#o .circle2").removeClass("oselected");
-		$("#nameo .circle2").removeClass("oselected");
 		$("#q .circle2").removeClass("qselected");
 		$("#s .halfcircle6").removeClass("sselected");
 		$("#s .halfcircle7").removeClass("bselected2");
-		$("#names .halfcircle6").removeClass("sselected");
-		$("#names .halfcircle7").removeClass("bselected2");
 		$("#v .triangle7").removeClass("mselected1");
 		$("#x .triangle1").removeClass("xselected1");
 		$("#x .triangle10").removeClass("xselected2");
@@ -25,18 +21,7 @@ $(document).ready(function() {
 		$("#cinq .halfcircle10").removeClass("bselected2");
 		$("#sept .triangle8").removeClass("zselected2");
 		$("#neuf .circle4").removeClass("neufselected");
-
-
-        if (--loops > 0)
-            setTimeout(removeAddClass, 4000);
-        }
-        removeAddClass();
-    });
-
-$(document).ready(function() {
-    var loops = 100;
-    function removeAddClass() {
-        $("#b .halfcircle1").removeClass("bselected1");
+		$("#b .halfcircle1").removeClass("bselected1");
 		$("#b .halfcircle2").removeClass("bselected2");
 		$("#d .halfcircle4").removeClass("dselected");
 		$("#g .circle1").removeClass("gselected");
@@ -44,7 +29,6 @@ $(document).ready(function() {
 		$("#k .triangle3").removeClass("kselected2");
 		$("#n .triangle4").removeClass("nselected");
 		$("#p .halfcircle1").removeClass("bselected1");
-		$("#namep .halfcircle1").removeClass("bselected1");
 		$("#r .halfcircle1").removeClass("rselected1");
 		$("#r .triangle6").removeClass("rselected2");
 		$("#u .halfcircle8").removeClass("uselected");
@@ -57,6 +41,29 @@ $(document).ready(function() {
 		$("#six .circle3").removeClass("sixselected");
 		$("#huit .circle4").removeClass("huitselected1");
 		$("#huit .circle5").removeClass("huitselected2");
+/* NAME LETTERS */
+		$("#namee1 .halfcircle3").removeClass("cselected");
+		$("#namee2 .halfcircle11").removeClass("eselected");
+		$("#namec .halfcircle3").removeClass("cselected");
+		$("#namer .halfcircle12").removeClass("rselected1");
+		$("#namer .triangle3").removeClass("rselected2");
+		$("#nameo1 .circle2").removeClass("oselected");
+		$("#nameo2 .circle2").removeClass("gselected");
+		$("#namep1 .halfcircle1").removeClass("bselected1");
+		$("#namep2 .halfcircle1").removeClass("rselected1");
+
+
+        if (--loops > 0)
+            setTimeout(removeAddClass, 10000);
+        }
+        removeAddClass();
+    });
+
+/*
+$(document).ready(function() {
+    var loops = 100;
+    function removeAddClass() {
+        
 
 
         if (--loops > 0)
@@ -64,7 +71,7 @@ $(document).ready(function() {
         }
         removeAddClass();
     });
-/*
+
 $(document).ready(function() {
     var loops = 100;
     function removeAddClass() {
@@ -74,7 +81,7 @@ $(document).ready(function() {
         }
         removeAddClass();
     });
-    */
+*/
 
 $(document).ready(function() {
 
@@ -83,14 +90,17 @@ $(document).ready(function() {
 	$("#a .triangle1").addClass("aselected");
 });
 
+
 	$("#b").on('mouseover',function(){
 	$("#b .halfcircle1").addClass("bselected1");
 	$("#b .halfcircle2").addClass("bselected2");
-
 });
 
 	$("#c").on('mouseover',function(){
 	$("#c .halfcircle3").addClass("cselected");
+});
+	$("#namec").on('mouseover',function(){
+	$("#namec .halfcircle3").addClass("cselected");
 });
 
 	$("#d").on('mouseover',function(){
@@ -99,11 +109,14 @@ $(document).ready(function() {
 	$("#e").on('mouseover',function(){
 	$("#e .halfcircle3").addClass("eselected");
 });
+	$("#namee1").on('mouseover',function(){
+	$("#namee1 .halfcircle3").addClass("cselected");
+});
+	$("#namee2").on('mouseover',function(){
+	$("#namee2 .halfcircle11").addClass("eselected");
+});
 	$("#g").on('mouseover',function(){
 	$("#g .circle1").addClass("gselected");
-});
-	$("#nameg").on('mouseover',function(){
-	$("#nameg .circle1").addClass("gselected");
 });
 	$("#j").on('mouseover',function(){
 	$("#j .halfcircle5").addClass("jselected");
@@ -126,16 +139,22 @@ $(document).ready(function() {
 	$("#o .circle2").addClass("oselected");
 });
 	
-	$("#nameo").on('mouseover',function(){
-	$("#nameo .circle2").addClass("oselected");
+	$("#nameo1").on('mouseover',function(){
+	$("#nameo1 .circle2").addClass("oselected");
+});
+	$("#nameo2").on('mouseover',function(){
+	$("#nameo2 .circle2").addClass("gselected");
 });
 	
 	$("#p").on('mouseover',function(){
 	$("#p .halfcircle1").addClass("bselected1");
 });
 	
-	$("#namep").on('mouseover',function(){
-	$("#namep .halfcircle1").addClass("bselected1");
+	$("#namep1").on('mouseover',function(){
+	$("#namep1 .halfcircle1").addClass("bselected1");
+});
+	$("#namep2").on('mouseover',function(){
+	$("#namep2 .halfcircle1").addClass("rselected1");
 });
 	
 	$("#q").on('mouseover',function(){
@@ -146,15 +165,14 @@ $(document).ready(function() {
 	$("#r .halfcircle1").addClass("rselected1");
 	$("#r .triangle6").addClass("rselected2");
 });
+	$("#namer").on('mouseover',function(){
+	$("#namer .halfcircle12").addClass("rselected1");
+	$("#namer .triangle3").addClass("rselected2");
+});
 
 	$("#s").on('mouseover',function(){
 	$("#s .halfcircle6").addClass("sselected");
 	$("#s .halfcircle7").addClass("bselected2");
-});
-
-	$("#names").on('mouseover',function(){
-	$("#names .halfcircle6").addClass("sselected");
-	$("#names .halfcircle7").addClass("bselected2");
 });
 
 	$("#u").on('mouseover',function(){
