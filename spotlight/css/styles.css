@@ -960,8 +960,8 @@ body {
 }
 
 .yselected {
-	transform: scale(.5);
-	transform-origin: top right;
+	transform: scale(2);
+	transform-origin: bottom right;
 }
 
 .zselected1 {
@@ -1000,6 +1000,14 @@ body {
 .neufselected {
 	transform: scale(2.5);
 	transform-origin: center right;
+	transition: all 600ms;
+}
+
+.namecselected {
+	transform: scale(.5);
+	transform-origin: bottom right;
+	border-radius: 100px 100px 100px 100px;
+	width: 200px;
 	transition: all 600ms;
 }
 
