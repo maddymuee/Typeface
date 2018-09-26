@@ -12,7 +12,7 @@ body {
 	height: 2600px;
 	margin: auto;
 	background-color:#e2004a;
-	animation: filter-animation 240s infinite linear alternate;
+	animation: filter-animation 120s infinite linear alternate;
 }
 
 #content:hover {
@@ -129,7 +129,7 @@ body {
 
 #e {
 	position: absolute;
-	left: 740px;
+	left: 755px;
 }
 
 #f {
@@ -216,7 +216,7 @@ body {
 
 #t {
 	position: absolute;
-	left: 705px;
+	left: 695px;
 	top: 900px;
 }
 
@@ -280,7 +280,7 @@ body {
 
 #cinq {
 	position: absolute;
-	left: 765px;
+	left: 755px;
 	top: 1500px;
 }
 
@@ -804,21 +804,18 @@ body {
 
 .aselected {
 	transform: scale(3.5);
-	transition: all 600ms;
 }
 
 .bselected1 {
 	transform: skewY(20deg);
 	top: 380px;
 	width: 2000px;
-	transition: all 600ms;
 }
 
 .bselected2 {
 	transform: skewY(-20deg);
 	top: -257px;
 	width: 2000px;
-	transition: all 600ms;
 }
 
 .cselected {
@@ -826,14 +823,12 @@ body {
 	transform-origin: bottom right;
 	border-radius: 100px 100px 100px 100px;
 	width: 200px;
-	transition: all 600ms;
 }
 
 .dselected {
 	transform-origin: top left;
 	border-radius: 100px 100px 100px 100px;
 	width: 200px;
-	transition: all 600ms;
 }
 
 .eselected {
@@ -841,13 +836,11 @@ body {
 	transform-origin: center left;
 	border-radius: 100px 100px 100px 100px;
 	width: 200px;
-	transition: all 600ms;
 }
 
 .gselected {
 	transform: scale(2);
 	transform-origin: top right;
-	transition: all 600ms;
 }
 
 .hselected {
@@ -855,56 +848,47 @@ body {
 	transform-origin: top right;
 	border-radius: 100px 100px 100px 100px;
 	width: 200px;
-	transition: all 600ms;
 }
 
 .jselected {
 	transform: scale(.5);
 	border-radius: 200px 200px 200px 200px;
 	height: 200px;
-	transition: all 600ms;
 }
 
 .kselected1 {
 	transform: scale(6);
 	transform-origin: center left;
-	transition: all 600ms;
 	top: -204px;
 }
 
 .kselected2 {
 	transform: scale(4);
 	transform-origin: center left;
-	transition: all 600ms;
 	top: 193px;
 }
 
 .mselected2 {
 	transform: scale(3);
 	transform-origin: bottom left;
-	transition: all 600ms;
 }
 
 .mselected1 {
 	transform: scale(2);
 	transform-origin: bottom left;
-	transition: all 600ms;
 }
 
 .nselected {
 	transform: scale(2);
-	transition: all 600ms;
 }
 
 .oselected {
 	transform: scale(1.5);
-	transition: all 600ms;
 }
 
 .qselected {
 	transform: scale(.5);
 	transform-origin: bottom left;
-	transition: all 600ms;
 }
 
 
@@ -912,12 +896,10 @@ body {
 	transform: skewY(-20deg);
 	top: -348px;
 	width: 2000px;
-	transition: all 600ms;
 }
 .rselected2 {
 	transform: scale(1.5);
 	transform-origin: top left;
-	transition: all 600ms;
 }
 
 .sselected {
@@ -925,36 +907,30 @@ body {
 	top: 380px;
 	left: -1945px;
 	width: 2000px;
-	transition: all 600ms;
 }
 
 .uselected {
 	transform-origin: top left;
 	border-radius: 100px 100px 100px 100px;
 	height: 200px;
-	transition: all 600ms;
 }
 
 .wselected2 {
 	transform: scale(2);
 	transform-origin: top left;
-	transition: all 600ms;
 }
 
 .wselected1 {
 	transform: scale(1.5);
 	transform-origin: top left;
-	transition: all 600ms;
 }
 
 .xselected1 {
 	transform: scale(.75);
-	transition: all 600ms;
 }
 
 .xselected2 {
 	transform: scale(.5);
-	transition: all 600ms;
 	top: 40px;
 	left: 25px;
 }
@@ -977,38 +953,25 @@ body {
 .quatreselected {
 	transform: scale(.75);
 	transform-origin: top right;
-	transition: all 600ms;
 }
 
 .sixselected {
 	transform: scale(2.75);
 	transform-origin: center left;
-	transition: all 600ms;
 }
 
 .huitselected1 {
 	transform: scale(3);
 	transform-origin: bottom right;
-	transition: all 600ms;
 }
 .huitselected2 {
 	transform: scale(4);
 	transform-origin: center right;
-	transition: all 600ms;
 }
 
 .neufselected {
 	transform: scale(2.5);
 	transform-origin: center right;
-	transition: all 600ms;
-}
-
-.namecselected {
-	transform: scale(.5);
-	transform-origin: bottom right;
-	border-radius: 100px 100px 100px 100px;
-	width: 200px;
-	transition: all 600ms;
 }
 
 
